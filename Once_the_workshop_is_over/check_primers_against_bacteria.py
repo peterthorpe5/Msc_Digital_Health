@@ -11,14 +11,17 @@ wanted = set("""AGTTGCAAAAATACACTTGTGGGAGAAATG
 AAAAGCTTACCAGCTTATTCTAGAAAAGTTGGGAGA""".split())
 
 print("we have just found out what we assembled: Now for something cool\n")
-print("""In the 2005 scandinavia realised that their Chhlymidia rate was
+print("""In the 1999 scandinavia realised that their Chhlymidia rate was
       decreasing. They gave themselves a good pat on the back and said well done""")
 
 print("""lets look at the primers used for PCR diagnositcs versus a refernce sequecne
       and Chylmidia found in Scandanavia""")
 
 print("""\nrefernce: https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-10-239
-Co-evolution of genomes and plasmids within Chlamydia trachomatis and the emergence in Sweden of a new variant strain\n""")
+Co-evolution of genomes and plasmids within Chlamydia trachomatis and the emergence
+in Sweden of a new variant strain\n
+https://www.eurosurveillance.org/content/10.2807/esw.11.49.03090-en?crawler=true
+""")
 
 
 print("looking at wt_palsmid.fasta")
@@ -56,3 +59,8 @@ print("""\nBasically a company in Scandanavia cut costs by only using
  on the plasmid, and thus this region which should be amplified
  was selected against and therefore
  NOT identified during diagnostics.""")
+
+print("""more reading:
+
+      see the Word Doc""")
+
