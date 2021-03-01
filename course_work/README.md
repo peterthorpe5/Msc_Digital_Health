@@ -5,7 +5,7 @@ coursework_reads
 
 The DNA was isolated from a pure culture. 
 
-You can apply what you have learn to the following datasets:
+You can apply what you have learn to the following datasets and Identify what each patient had?:
 
 Patient	reads	disease_cause?
 Patient_007	patient_007_1.fastq.gz	?
