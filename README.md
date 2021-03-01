@@ -6,7 +6,7 @@ This repository is for an introduction to genome_assembly_workshop
 
 open ``getting_started.pptx`` 
 
-then in the powerpoint folder ``ASSEMBLY_WORKSHOP.pptx`` . Follow this and open the other files when told to do so. 
+then in the ``powerpoint folder``  ``ASSEMBLY_WORKSHOP.pptx`` . Follow this and open the other files when told to do so. 
 
 # scripts
 
@@ -28,7 +28,7 @@ The raw reads outputted from the sequencing Illumina MiSeq machine are here in
 
 The DNA was isolated from a pure culture. 
 
-You can apply what you have learn to the following datasets:
+You can apply what you have learn to the following datasets and identify what they had:
 
 |Patient     |	reads|	disease_cause   |
 |:---------: |:-----:| :---------------:|
