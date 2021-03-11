@@ -6,6 +6,7 @@ from Bio.Alphabet import IUPAC
 from collections import defaultdict
 import collections
 from Bio import SeqIO
+import os
 
 wanted = set("""AGTTGCAAAAATACACTTGTGGGAGAAATG
 AAAAGCTTACCAGCTTATTCTAGAAAAGTTGGGAGA""".split())
@@ -25,7 +26,8 @@ https://www.eurosurveillance.org/content/10.2807/esw.11.49.03090-en?crawler=true
 
 
 print("looking at wt_palsmid.fasta")
-for seq_record in SeqIO.parse("wt_palsmid.fasta", "fasta"):
+for seq_record in SeqIO.parse(os.path.join("assemblies", "plasmids",
+                                           "wt_plasmid.fasta"), "fasta"):
     for primer in wanted:
         temp = primer
         test = Seq(primer, IUPAC.unambiguous_dna)
@@ -39,7 +41,8 @@ for seq_record in SeqIO.parse("wt_palsmid.fasta", "fasta"):
             continue
 print("\n\nlooking at FM865439.1.fasta")
 
-for seq_record in SeqIO.parse("FM865439.1.fasta", "fasta"):
+for seq_record in SeqIO.parse(os.path.join("assemblies", "plasmids",
+                                           "FM865439.1.fasta"), "fasta"):
     for primer in wanted:
         temp = primer
         test = Seq(primer, IUPAC.unambiguous_dna)
