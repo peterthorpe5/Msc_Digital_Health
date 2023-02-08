@@ -18,6 +18,20 @@ https://notepad-plus-plus.org/download/v7.6.2.html
 
 Filezilla is ACE for transferring files. 
 
+
+On windows:
+``Notepad++``. This is the king of text editors! Mobaxterm is a great terminal tool 
+
+https://notepad-plus-plus.org/download/v7.6.2.html
+
+Filezilla is ACE for transferring files. 
+
+On a MAC
+
+Visual code. Or cyberduck are great too. Use the Terminal or iterm2 as an alternative to the default terminal 
+
+Enjoy!
+
 Enjoy!
 
 
