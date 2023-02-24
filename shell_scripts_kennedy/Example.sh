@@ -2,7 +2,7 @@
 #SBATCH -J example   #jobname
 #SBATCH -N 1     #node
 #SBATCH --ntasks-per-node=1
-#SBATCH -p debug
+#SBATCH -p bigmem
 #SBATCH --mem=1GB
 
 cd /home/pjt6/scratch/digital_health/
