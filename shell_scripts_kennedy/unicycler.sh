@@ -6,7 +6,7 @@
 #SBATCH --mem=30GB
 
 # https://github.com/rrwick/Unicycler#quick-usage
-cd ~/scratch/genome_assembly_workshop/
+cd /home/pjt6/scratch/digital_health/
 
 # to activate the software, paste the following in your terminal:
 # activate the software

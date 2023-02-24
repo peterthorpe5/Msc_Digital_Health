@@ -5,7 +5,7 @@
 #SBATCH -p bl4237
 #SBATCH --mem=20GB
 
-cd ~/scratch/genome_assembly_workshop/
+cd /home/pjt6/scratch/digital_health/
 
 # to activate the software, paste the following in your terminal:
 # activate the software
