@@ -2,7 +2,7 @@
 #SBATCH -J unicycle   #jobname
 #SBATCH -N 1     #node
 #SBATCH --ntasks-per-node=2
-#SBATCH -p debug
+#SBATCH -p bigmem
 #SBATCH --mem=30GB
 
 # https://github.com/rrwick/Unicycler#quick-usage
