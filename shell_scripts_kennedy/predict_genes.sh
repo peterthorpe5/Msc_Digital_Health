@@ -6,7 +6,7 @@
 #SBATCH --mem=10GB
 
 
-cd ~/scratch/genome_assembly_workshop/
+cd /home/pjt6/scratch/digital_health/
 
 
 # activate the software
@@ -24,6 +24,6 @@ export PATH=/gpfs1/scratch/bioinf/BL4273/conda/envs/genome_workshop/bin/:$PATH
 # https://github.com/tseemann/prokka
 
 # must be full path here
-prokka --cpus 2 ~/scratch/genome_assembly_workshop/directory_trimmed/contigs.fa
+prokka --cpus 2 /home/pjt6/scratch/digital_health/directory_trimmed/contigs.fa
 
 

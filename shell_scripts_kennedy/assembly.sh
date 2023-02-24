@@ -7,7 +7,7 @@
 
 
 # this line takes us into the correct directory where the data is
-cd ~/scratch/genome_assembly_workshop/
+cd /home/pjt6/scratch/digital_health
 
 # activate the software
 export PATH=/gpfs1/scratch/bioinf/BL4273/conda/envs/genome_workshop/bin/:$PATH

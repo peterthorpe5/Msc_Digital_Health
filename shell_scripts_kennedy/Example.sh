@@ -5,7 +5,7 @@
 #SBATCH -p debug
 #SBATCH --mem=1GB
 
-cd ~/scratch/genome_assembly_workshop/
+cd /home/pjt6/scratch/digital_health/
 echo "I am running the script"
 echo "tell me someting good"
 

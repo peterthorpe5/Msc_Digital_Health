@@ -1,4 +1,4 @@
-#!/bin/bash -l
+ s#!/bin/bash -l
 #SBATCH -J spades   #jobname
 #SBATCH -N 1     #node
 #SBATCH --ntasks-per-node=2
