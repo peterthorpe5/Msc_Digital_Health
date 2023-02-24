@@ -2,7 +2,7 @@
 #SBATCH -J spades   #jobname
 #SBATCH -N 1     #node
 #SBATCH --ntasks-per-node=2
-#SBATCH -p debug
+#SBATCH -p bigmem
 #SBATCH --mem=20GB
 
 cd ~/scratch/genome_assembly_workshop/
