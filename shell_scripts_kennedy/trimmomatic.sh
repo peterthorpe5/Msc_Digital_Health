@@ -2,7 +2,7 @@
 #SBATCH -J trimmo   #jobname
 #SBATCH -N 1     #node
 #SBATCH --ntasks-per-node=1
-#SBATCH -p bigmem
+#SBATCH -p bl4237
 #SBATCH --mem=4GB
 
 
