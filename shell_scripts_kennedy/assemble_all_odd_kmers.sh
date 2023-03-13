@@ -2,7 +2,7 @@
 #SBATCH -J all   #jobname
 #SBATCH -N 1     #node
 #SBATCH --ntasks-per-node=2
-#SBATCH -p bl4237
+#SBATCH -p gd5302
 #SBATCH --mem=10GB
 
 
